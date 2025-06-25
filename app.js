@@ -10,5 +10,6 @@ app.use(express.json());
 
 // Routes
 app.use("/api/auth", require("./routes/authRoutes"));
+app.use("/api/exams", require("./routes/examRoutes"));
 
 module.exports = app;
